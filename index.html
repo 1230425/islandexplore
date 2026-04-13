@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IslandExplore – Adventure Awaits in Paradise!</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .flag {
+            width: 30px;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to right, #fff5e6, #ffffff);
+        }
+
+        .hero h1 {
+            color: #800000;
+            font-size: 36px;
+        }
+
+        .hero-flag {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: auto;
+            text-align: left;
+        }
+
+        .tour {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .tour img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #800000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #a00000;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-logo">
+        <img src="../images/logo.png" alt="IslandExplore Logo" class="logo">
+        <img src="../images/tonga-flag.png" alt="Tongan Flag" class="flag">
+        <h1>IslandExplore</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="booking.html">Booking</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutus.html">About Us</a>
+    </nav>
+</header>
+
+
+<div class="search-container">
+    <form action="search.html" method="get">
+        <input type="search" class="search-box" name="query" placeholder="Search bar">
+        <button type="submit" class="search-btn">Search</button>
+    </form>
+</div>
+
+
+<div class="hero">
+
+    <img src="../images/tonga-flag.png" alt="Tongan Flag" class="hero-flag">
+
+    <h1>Discover the Beauty of the Islands in Tonga</h1>
+
+    <p style="font-size:20px;">
+        🇹🇴 Adventure, Culture, and Beaches Await!
+    </p>
+
+    <a href="booking.html" class="btn">Book Your Tour Now</a>
+</div>
+
+
+<div class="content">
+
+    <h2>Featured Experiences</h2>
+
+    <div class="tour">
+        <img src="../images/blowholes.jpg" alt="Blowholes">
+        <div>
+            <h3>The Breathing Coast</h3>
+            <p>Mapu'a 'a Vaea blowholes, Tongatapu — Where the ocean meets the sky</p>
+        </div>
+    </div>
+
+    <div class="tour">
+        <img src="../images/whales.jpg" alt="Whales">
+        <div>
+            <h3>Where Whales Come to Dream</h3>
+            <p>Humpback whale sanctuary. Swim with giants of the deep</p>
+        </div>
+    </div>
+
+    <div class="tour">
+        <img src="../images/culture.jpg" alt="Culture">
+        <div>
+            <h3>Feasts, Dance & Sacred Fire</h3>
+            <p>Experience Tongan culture, food, dance, and traditions</p>
+        </div>
+    </div>
+
+    <div class="tour">
+        <img src="../images/haamonga.jpg" alt="Haʻamonga ʻa Maui">
+        <div>
+            <h3>Haʻamonga ʻa Maui</h3>
+            <p>Explore the ancient stone trilithon of Tonga — a mysterious landmark rich in history and culture.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 IslandExplore. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

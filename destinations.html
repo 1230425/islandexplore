@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - IslandExplore</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: white;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo {
+            width: 40px;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #800000;
+            font-weight: bold;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .map-section {
+            margin: 30px 0;
+        }
+
+        .map-section img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        /* ✅ NEW PROFESSIONAL LAYOUT */
+        .destination {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin: 40px 0;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .destination img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .destination-text {
+            flex: 1;
+        }
+
+        /* MOBILE FRIENDLY */
+        @media (max-width: 768px) {
+            .destination {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .destination img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-logo">
+        <img src="../images/logo.png" class="logo" alt="IslandExplore Logo">
+        <h1>IslandExplore</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="booking.html">Booking</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutus.html">About Us</a>
+    </nav>
+</header>
+
+
+<div class="content">
+
+    <h2>Top Island Destinations</h2>
+
+    <p>
+        Discover the most beautiful and unforgettable places across Tonga — where nature, culture, and adventure meet.
+    </p>
+
+    
+    <div class="map-section">
+        <h3>Explore Tonga 🇹🇴</h3>
+        <img src="../images/tonga-map.png" alt="Map of Tonga">
+        <p>
+            Tonga is made up of beautiful island groups including Tongatapu, Vava'u, and Ha'apai.
+        </p>
+    </div>
+
+    
+    <div class="destination">
+        <img src="../images/blowholes.jpg" alt="Blowholes">
+
+        <div class="destination-text">
+            <h3>The Breathing Coast</h3>
+            <p>
+                Experience the power of the ocean as waves explode through natural rock formations along the coastline.
+            </p>
+            <p>
+                A must-see natural attraction perfect for photography and adventure.
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="destination">
+        <img src="../images/whales.jpg" alt="Whales">
+
+        <div class="destination-text">
+            <h3>Where Whales Come to Dream</h3>
+            <p>
+                Swim alongside humpback whales in the crystal-clear waters of Tonga.
+            </p>
+            <p>
+                A safe, guided, and unforgettable marine experience.
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="destination">
+        <img src="../images/culture.jpg" alt="Culture">
+
+        <div class="destination-text">
+            <h3>Feasts, Dance & Sacred Fire</h3>
+            <p>
+                Experience traditional Tongan culture through dance, food, and storytelling.
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="destination">
+        <img src="../images/haamonga.jpg" alt="Haʻamonga ʻa Maui">
+
+        <div class="destination-text">
+            <h3>Haʻamonga ʻa Maui</h3>
+            <p>
+                Explore the ancient stone trilithon of Tonga — a mysterious historical landmark.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<footer style="text-align:center; padding:20px; background:#800000; color:white;">
+    <p>&copy; 2026 IslandExplore</p>
+</footer>
+
+</body>
+</html>
